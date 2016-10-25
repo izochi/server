@@ -1,0 +1,31 @@
+{
+  "name": "izochi",
+  "version": "0.0.0",
+  "description": "ids highest rated spots",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClarabelleCheng-Yue/server-1.git"
+  },
+  "author": "Annabel Hao, Clarabelle Cheng-Yue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClarabelleCheng-Yue/server-1/issues"
+  },
+  "homepage": "https://github.com/ClarabelleCheng-Yue/server-1#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "expect": "^1.20.2",
+    "mocha": "^3.1.2",
+    "nodemon": "^1.11.0",
+    "should": "^11.1.1"
+  }
+}
